@@ -1,5 +1,7 @@
 import homepagePicture from "../assets/homepage-picture.png";
 import Logo from "../assets/Logo.png";
+import { Link } from "react-router-dom"
+
 
 export default function Homepage() {
   return (
@@ -37,10 +39,10 @@ export default function Homepage() {
         {/* Sign-Up & Login */}
         <div className="flex gap-4">
           <button className="bg-blue-700 text-white rounded-full px-6 py-3 font-semibold hover:bg-blue-900">
-            Sign Up
+            <Link to="/signup">Sign-Up</Link>
           </button>
           <button className="bg-blue-700 text-white rounded-full px-6 py-3 font-semibold hover:bg-blue-900">
-            Login
+            <Link to="/login">Login</Link>
           </button>
         </div>
 
@@ -78,7 +80,7 @@ export default function Homepage() {
           <img
             src={homepagePicture}
             alt="Homepage Illustration"
-            className="w-[100%] max-w-[511000px] object-contain drop-shadow-xl"
+            className="w-full max-w-[500px] object-contain drop-shadow-xl"
           />
         </div>
 

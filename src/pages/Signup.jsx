@@ -42,13 +42,6 @@ export default function Signup() {
               className="border rounded-xl p-2"
               required
             />
-
-            <button
-              type="button"
-              className="text-blue-500 text-sm mt-1 self-start"
-            >
-              Forgot Password?
-            </button>
           </div>
 
           <button
