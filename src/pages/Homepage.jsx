@@ -104,7 +104,7 @@ export default function Homepage() {
           <img
             src={homepagePicture}
             alt="Homepage Illustration"
-            className="w-full max-w-[500px] object-contain drop-shadow-xl"
+            className="w-full max-w-[900px] object-contain drop-shadow-xl"
           />
         </div>
 
