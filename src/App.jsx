@@ -4,6 +4,7 @@ import Login from "./pages/Login.jsx"
 import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx"
 import { Routes, Route } from "react-router-dom"
+import "./App.css"
 
 export default function App() {
   return (
