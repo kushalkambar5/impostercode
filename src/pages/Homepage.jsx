@@ -1,7 +1,6 @@
 import homepagePicture from "../assets/homepage-picture.png";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-router-dom"
-import ThemeToggle from "../components/ThemeToggle";
 
 
 export default function Homepage() {
