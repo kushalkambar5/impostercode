@@ -8,7 +8,7 @@ export default function EditorLayout() {
       <EditorNavbar />
       <div className="flex h-[calc(100vh-80px)]">
         <Explorer/>
-        {/* <CodeEditor/> */}
+        <CodeEditor/>
       </div>
     </>
   );
