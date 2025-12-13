@@ -6,6 +6,7 @@ import Contact from "./pages/Contact.jsx"
 import { Routes, Route } from "react-router-dom"
 import "./App.css"
 import EditorLayout from "./components/EditorLayout.jsx"
+import NotFound from "./pages/NotFound.jsx"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
       <Route path="/editorlayout" element={<EditorLayout/>} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
