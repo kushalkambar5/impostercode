@@ -14,7 +14,7 @@ export default function Homepage() {
       <img
         src={image}
         alt="Lost illustration"
-        className="relative z-10 w-90 md:w-150 drop-shadow-xl"
+        className="relative z-10 w-100 md:w-200 drop-shadow-xl pr-20"
       />
 
       {/* Text */}
